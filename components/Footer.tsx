@@ -32,7 +32,7 @@ const Footer: React.FC = () => {
         </div>
 
         <div className="border-t border-slate-100 pt-8 text-center text-sm text-slate-400">
-          <p>&copy; {new Date().getFullYear()} Pemerintah Desa Tangkas. All rights reserved.</p>
+          <p>&copy; {new Date().getFullYear()} Pemerintah Desa Tangkas Kec. Martapura Barat</p>
         </div>
       </div>
     </footer>
