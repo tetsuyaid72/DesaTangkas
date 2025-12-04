@@ -20,7 +20,7 @@ const Contact: React.FC = () => {
               </div>
               <h3 className="text-xl font-bold text-slate-800 mb-2">Alamat Kantor</h3>
               <p className="text-slate-600 leading-relaxed">
-                Jl. Desa Tangkas No. 1<br/>
+                Jl. Martapura Lama Desa Tangkas<br/>
                 Kecamatan Martapura Barat<br/>
                 Kabupaten Banjar, Kalimantan Selatan
               </p>
@@ -34,7 +34,7 @@ const Contact: React.FC = () => {
               <ul className="text-slate-600 space-y-2">
                 <li className="flex justify-between">
                   <span>Senin - Kamis</span>
-                  <span className="font-medium">08:00 - 15:00</span>
+                  <span className="font-medium">08:30 - 14:30</span>
                 </li>
                 <li className="flex justify-between">
                   <span>Jumat</span>
