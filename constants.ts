@@ -33,126 +33,260 @@ export const SERVICES_LIST: ServiceItem[] = [
     id: 'pindah',
     title: 'Surat Pengantar Pindah',
     description: 'Dokumen pengantar untuk proses pindah domisili antar wilayah.',
-    icon: MapPin
+    icon: MapPin,
+    requirements: [
+      "Foto KTP Asli (Suami & Istri jika berkeluarga)",
+      "Foto Kartu Keluarga (KK) Asli",
+      "Alamat Lengkap Tujuan Pindah (RT/RW, Desa, Kecamatan)",
+      "Pas Foto 3x4 berwarna (2 lembar)",
+      "Alasan Kepindahan"
+    ]
   },
   {
     id: 'nikah',
     title: 'Surat Pengantar Nikah',
     description: 'Persyaratan administrasi awal untuk pendaftaran pernikahan.',
-    icon: HeartHandshake
+    icon: HeartHandshake,
+    requirements: [
+      "Foto KTP Calon Suami & Istri",
+      "Foto KK Calon Suami & Istri",
+      "Foto Akta Kelahiran",
+      "Foto Ijazah Terakhir",
+      "Pas Foto 2x3 & 4x6 (Background Biru/Merah)",
+      "Surat Pernyataan Belum Pernah Menikah (Materai)",
+      "Fotokopi KTP Orang Tua (Ayah & Ibu)"
+    ]
   },
   {
     id: 'ktp',
     title: 'Surat Pengantar Pembuatan KTP',
     description: 'Surat rekomendasi untuk pembuatan Kartu Tanda Penduduk baru.',
-    icon: CreditCard
+    icon: CreditCard,
+    requirements: [
+      "Foto Kartu Keluarga (KK) Terbaru",
+      "Foto Akta Kelahiran / Ijazah",
+      "Surat Kehilangan dari Polisi (Jika KTP Hilang)",
+      "KTP Lama (Jika Rusak/Perubahan Data)"
+    ]
   },
   {
     id: 'skck',
     title: 'Surat Pengantar Pembuatan SKCK',
     description: 'Dokumen syarat penerbitan Surat Keterangan Catatan Kepolisian.',
-    icon: ShieldCheck
+    icon: ShieldCheck,
+    requirements: [
+      "Foto KTP Asli",
+      "Foto Kartu Keluarga (KK)",
+      "Foto Akta Kelahiran",
+      "Pas Foto 4x6 latar merah (4 lembar)",
+      "Keterangan Keperluan Pembuatan SKCK"
+    ]
   },
   {
     id: 'akta-lahir',
     title: 'Surat Permohonan Perubahan Akta Kelahiran',
     description: 'Permohonan koreksi atau perubahan data pada Akta Kelahiran.',
-    icon: FileEdit
+    icon: FileEdit,
+    requirements: [
+      "Foto KTP Pelapor",
+      "Foto Kartu Keluarga (KK)",
+      "Akta Kelahiran Asli yang ingin diubah",
+      "Bukti Pendukung Perubahan (Ijazah/Buku Nikah)"
+    ]
   },
   {
     id: 'usaha',
     title: 'Surat Keterangan Tempat Usaha',
     description: 'Surat keterangan legalitas lokasi usaha untuk perizinan.',
-    icon: Store
+    icon: Store,
+    requirements: [
+      "Foto KTP Pemilik Usaha",
+      "Foto Kartu Keluarga (KK)",
+      "Bukti Lunas PBB Tahun Terakhir",
+      "Foto Lokasi Usaha",
+      "Jenis dan Nama Usaha"
+    ]
   },
   {
     id: 'sktm',
     title: 'Surat Keterangan Tidak Mampu',
     description: 'Surat keterangan kondisi ekonomi untuk bantuan atau beasiswa.',
-    icon: HandCoins
+    icon: HandCoins,
+    requirements: [
+      "Foto KTP Asli",
+      "Foto Kartu Keluarga (KK)",
+      "Foto Rumah (Tampak Depan, Samping, Dalam)",
+      "Surat Pernyataan Tidak Mampu bermaterai (Opsional)"
+    ]
   },
   {
     id: 'hilang',
     title: 'Surat Keterangan Hilang',
     description: 'Keterangan resmi atas kehilangan dokumen penting kependudukan.',
-    icon: FileQuestion
+    icon: FileQuestion,
+    requirements: [
+      "Foto KTP / Identitas Pelapor",
+      "Foto Kartu Keluarga (KK)",
+      "Surat Kehilangan dari Kepolisian (Opsional/Jika ada)",
+      "Informasi detail dokumen yang hilang"
+    ]
   },
   {
     id: 'belum-nikah',
     title: 'Surat Keterangan Tidak Pernah Menikah',
     description: 'Pernyataan status belum kawin untuk keperluan administrasi.',
-    icon: UserX
+    icon: UserX,
+    requirements: [
+      "Foto KTP Asli",
+      "Foto Kartu Keluarga (KK)",
+      "Surat Pernyataan Belum Pernah Menikah (Materai 10.000)",
+      "Saksi 2 Orang (KTP Saksi)"
+    ]
   },
   {
     id: 'belum-rumah',
     title: 'Surat Keterangan Belum Memiliki Rumah',
     description: 'Syarat pengajuan KPR subsidi atau bantuan perumahan.',
-    icon: Home
+    icon: Home,
+    requirements: [
+      "Foto KTP Pemohon",
+      "Foto Kartu Keluarga (KK)",
+      "Formulir Permohonan dari Bank/Instansi (Jika ada)",
+      "Surat Pernyataan Bermaterai"
+    ]
   },
   {
     id: 'cerai',
     title: 'Surat Keterangan Cerai/Rujuk',
     description: 'Keterangan status perceraian atau rujuk secara administratif.',
-    icon: HeartCrack
+    icon: HeartCrack,
+    requirements: [
+      "Foto KTP",
+      "Foto Kartu Keluarga",
+      "Akta Cerai dari Pengadilan Agama",
+      "Surat Putusan Pengadilan"
+    ]
   },
   {
     id: 'domisili',
     title: 'Surat Keterangan Domisili',
     description: 'Bukti tempat tinggal sementara atau menetap di desa.',
-    icon: MapPin
+    icon: MapPin,
+    requirements: [
+      "Foto KTP Asli",
+      "Foto Kartu Keluarga (KK)",
+      "Surat Pengantar RT/RW (Jika ada)",
+      "Alamat Lengkap Domisili Sekarang"
+    ]
   },
   {
     id: 'ket-nikah',
     title: 'Surat Keterangan Menikah',
     description: 'Bukti pencatatan pernikahan yang sah secara administrasi desa.',
-    icon: Heart
+    icon: Heart,
+    requirements: [
+      "Foto KTP Suami & Istri",
+      "Foto KK Terbaru",
+      "Foto Buku Nikah / Akta Perkawinan"
+    ]
   },
   {
     id: 'ket-lahir',
     title: 'Surat Keterangan Lahir',
     description: 'Dokumen sementara sebelum terbitnya Akta Kelahiran resmi.',
-    icon: Baby
+    icon: Baby,
+    requirements: [
+      "Foto KTP Ayah & Ibu",
+      "Foto Kartu Keluarga (KK)",
+      "Surat Keterangan Lahir dari Bidan/RS/Puskesmas",
+      "Foto KTP 2 Orang Saksi",
+      "Nama Bayi"
+    ]
   },
   {
     id: 'kematian',
     title: 'Surat Keterangan Kematian',
     description: 'Bukti legal kematian warga untuk urusan waris atau asuransi.',
-    icon: UserMinus
+    icon: UserMinus,
+    requirements: [
+      "Foto KTP Almarhum/Almarhumah",
+      "Foto KK Almarhum/Almarhumah",
+      "Foto KTP Pelapor",
+      "Surat Keterangan Kematian dari RS (Jika ada)",
+      "Waktu dan Tempat Meninggal"
+    ]
   },
   {
     id: 'waris',
     title: 'Surat Keterangan Ahli Waris',
     description: 'Penetapan pihak yang berhak menerima warisan secara sah.',
-    icon: Users
+    icon: Users,
+    requirements: [
+      "Foto KTP Semua Ahli Waris",
+      "Foto KK Almarhum & Ahli Waris",
+      "Surat Keterangan Kematian",
+      "Buku Nikah Almarhum",
+      "Surat Pernyataan Ahli Waris (Materai)"
+    ]
   },
   {
     id: 'janda',
     title: 'Surat Keterangan Janda',
     description: 'Keterangan status janda untuk keperluan tunjangan pensiun.',
-    icon: User
+    icon: User,
+    requirements: [
+      "Foto KTP Pemohon",
+      "Foto KK Pemohon",
+      "Surat Kematian Suami atau Akta Cerai",
+      "Pas Foto 3x4 (2 lembar)"
+    ]
   },
   {
     id: 'penghasilan',
     title: 'Surat Keterangan Penghasilan Kerja',
     description: 'Keterangan pendapatan bagi pekerja sektor informal.',
-    icon: Banknote
+    icon: Banknote,
+    requirements: [
+      "Foto KTP Pemohon",
+      "Foto Kartu Keluarga (KK)",
+      "Informasi Jenis Pekerjaan",
+      "Estimasi Penghasilan Rata-rata per Bulan"
+    ]
   },
   {
     id: 'baik',
     title: 'Surat Keterangan Berkelakuan Baik',
     description: 'Rekomendasi perilaku baik dari desa untuk melamar kerja.',
-    icon: Award
+    icon: Award,
+    requirements: [
+      "Foto KTP Asli",
+      "Foto Kartu Keluarga (KK)",
+      "Surat Pengantar RT/RW",
+      "Keterangan Keperluan (Melamar Kerja/Sekolah)"
+    ]
   },
   {
     id: 'lapor-mati',
     title: 'Surat Formulir Pelaporan Kematian',
     description: 'Formulir resmi pelaporan warga meninggal ke Disdukcapil.',
-    icon: FileText
+    icon: FileText,
+    requirements: [
+      "Foto KTP & KK Almarhum (Asli)",
+      "Foto KTP Pelapor",
+      "Surat Keterangan Kematian dari Dokter/RS/Desa",
+      "KTP Saksi-saksi"
+    ]
   },
   {
     id: 'keramaian',
     title: 'Surat Rekomendasi Mengumpulkan Orang Banyak',
     description: 'Izin kegiatan keramaian masyarakat di lingkungan desa.',
-    icon: Megaphone
+    icon: Megaphone,
+    requirements: [
+      "Foto KTP Penanggung Jawab",
+      "Proposal Kegiatan / Susunan Acara",
+      "Izin Lokasi Kegiatan",
+      "Waktu dan Tanggal Kegiatan"
+    ]
   }
 ];

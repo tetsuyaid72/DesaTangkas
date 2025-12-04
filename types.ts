@@ -5,6 +5,7 @@ export interface ServiceItem {
   title: string;
   description: string;
   icon: LucideIcon;
+  requirements: string[];
 }
 
 export interface NavItem {
